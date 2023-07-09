@@ -1,0 +1,43 @@
+<!Doctype HTML>
+<html>
+<head>
+    <title></title>
+   <style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background size: 100%;
+        background-color:black;
+    }
+    .sun {
+        height: 120px;
+        width: 120px;
+        background-image: url(https://www.vecteezy.com/png/21657604-yellow-sun-light-up);
+        border-radius: 50%;
+        background-size:cover;
+        box-shadow: -4px 2px 56px #f9c05f;
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform: translate (-50%,-50%);
+    }
+    .mercury {
+        height: 20px;
+        width: 20px;
+        background: radial-gradient(circle,#935f2a 60% #54370c 75%);
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: -4px 2px 56px #f9c05f;
+        left: 43%;
+        top:  42%;
+        transform: translate (-50%,-50%);
+        animation: orbit 2 2s linear infinite;
+    }
+    @keyframes orbit2 {
+        from {transform:rotate (0 deg)translateX (70px) rotate (0 deg);}
+    }
+   </style>
+</head>
+<body>
+    <div class="sun"></div>
+</body>
